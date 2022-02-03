@@ -1,0 +1,53 @@
+body{
+    background-color: #292929;
+    color: #ccc;
+    text-align: center;
+  }
+
+  h1 {
+    color: #594baa;
+  }
+
+  label{ 
+    font-size: 16px;
+  }
+  
+    input, select{
+      width: 30%;
+      padding: 12px 20px;
+      margin: 10px 0;
+      box-sizing: border-box;
+      background-color: #292929;
+      opacity: 0.9;
+      color: #ccc;
+      border-radius: 5px;
+      border-color: #ccc;
+    }
+    
+    button {
+      background-color: #33da6b;
+      color: white;
+      padding: 14px 0px 14px 0px;
+      border: 1px;
+      cursor: pointer;
+      width: 110px;
+      text-align: center;
+      border-radius: 5px;
+      border-color: blanchedalmond;
+      font-size: 15px;
+      margin: 2px;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+
+
+    @media (max-width: 600px){
+
+      input, select{
+
+        width: 95%;
+
+      }
+    }

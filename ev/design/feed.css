@@ -1,0 +1,179 @@
+body{
+    background-color: #292929;
+    color: #ccc;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+  a {
+    color: #ccc;
+  }
+  
+  h1,
+  h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+  }
+
+.navbar {
+    color: #ccc;
+    height: 60px;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 2px #fff solid;
+  }
+  
+  .navbar .flex {
+    justify-content: space-between;
+  }
+
+.profile{
+    position: absolute;
+    top: 20px;
+width: 60px;
+height: 60px;
+left: 25px;
+border-radius: 50%;
+
+background: #141414;
+}
+
+.name{
+    position: absolute;
+    width: 164px;
+    height: 63px;
+    left: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #ccc;
+}
+
+
+img{
+    left: 25px;
+    top: 100px;
+    position: absolute;
+    height: 1150px;
+    width: 675px;
+    display: block;
+    border-radius: 25px;
+}
+
+.rect1{
+position: relative;
+    left: 200px;
+    top: 100px;
+width: 725px;
+background: #292929;
+border-radius: 25px;
+border: 0px;
+height: 1370px;
+box-shadow: 0 3px 10px #141414;
+display: inline-block;
+display:grid;
+}
+
+.place{
+    position: absolute;
+width: 132px;
+height: 35px;
+left: 35px;
+top: 75px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #ccc;
+}
+
+.likes{
+    position: absolute;
+width: 100%;
+  top: 1245px;
+margin: 10px 0px 0px 0px;
+
+
+    border: none;
+    border-bottom: 3px #ccc solid;
+    font-size: 20px;
+}
+
+.buttons{
+    position: absolute;
+    top: 1320px;
+    left: 50px;
+}
+
+
+@media (max-width: 1200px){
+
+    .rect1{
+left: auto;
+    }
+
+}
+
+
+
+@media (max-width: 750px){
+
+
+    .rect1{
+        width: 100%;
+        left: 0px;
+        padding-top: 100%;
+        height: fit-content;
+    }
+
+    img{
+        left: 0px;
+        width: 100%;
+        height: auto;
+        float:left;
+    }
+
+    .likes{
+
+        bottom: 20%;
+    }
+
+    .profile{
+left: 20px;
+    }
+
+.name{
+    left: 90px;
+}
+
+.buttons{
+  top: 860px;
+  bottom: 10%;
+
+}
+
+}

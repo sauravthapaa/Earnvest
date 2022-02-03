@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="design/pitch.css">
+<body>
+    <h1>Earnvest startup pitch questtions</h1>
+<form>
+
+   <label for="name">Your Name:</label><br>
+    <input type="text" id="name" autocomplete="off" required><br> 
+
+    <label for="compname">Your company Name:</label><br>
+    <input type="text" id="compname" autocomplete="off" required><br>
+
+ <label for="email">Your Email:</label><br>
+ <input type="email" id="email" autocomple="off" required><br>
+
+ <label for="stage">Your stage:</label><br>
+ <select name="stage" id="stage" required>
+    <option value="idea">Idea Stage</option>
+    <option value="working">Working on the Product</option>
+    <option value="completion">Completion of Product</option>
+    <option value="mvpfu">MVP for Free Users</option>
+    <option value="mvppu">MVP for Paid Users</option>
+    <option value="selling">Started Selling Product </option>
+  </select><br>
+
+  <label for="website">Business Website:</label><br>
+  <input type="url" id="website"><br>
+
+  <label for="socials">Business Socials(Link):</label><br>
+  <input type="text" id="socials" required><br>
+  <input type="text" id="socials"><br>
+  <input type="text" id="socials"><br>
+
+    <label for="myfile">Upload your pitch deck:</label><br>
+    <input type="file" id="myfile" name="filename" required><br>
+
+    <label for="revenue">Business revenue type:</label><br>
+<select name="revenue" id="revenue" required>
+    <option value="subscription">Subscription</option>
+    <option value="marketing">Marketing</option>
+    <option value="licensing">Licensing</option>
+    <option value="freemiumm">Freemiumm</option>
+    <option value="one time sale">One Time Sale</option>
+    <option value="transaction fees">Transaction Fees</option>
+</select><br>
+    
+<label for="problem">What is the problem and whose is it?</label><br>
+<input type="text" id="problem" required maxlength="250"><br>
+
+<label for="solution">What problem does your company solve?</label><br>
+<input type="text" id="solution" required maxlength="250"><br>
+
+<label for="sector">Sector:</label><br>
+<select id="sector">
+    <option value="Information Technology">Information Technology</option>
+    <option value="Consumer Staples">Consumer Staples</option>
+    <option value="Energy">Energy</option>
+    <option value="Utilities">Utilities</option>
+    <option value="Materials">Materials</option>
+    <option value="Real Estate">Real Estate</option>
+    <option value="Consumer Discretionary">Consumer Discretionary</option>
+    <option value="Health Care">Health Care</option>
+    <option value="Financials">Financials</option>
+    <option value="Communication Services">Communication Services</option>
+    <option value="Industrials">Industrials</option>
+    <option value="Something New"></option>
+</select><br>
+
+<label for="market">What best describes your Business?</label><br>
+<select id="market">
+    <option value="nsp">Never Seen Product</option>
+    <option value="igp">an idea that is gaining popularity</option>
+    <option value="opnm">bringing old product into new market</option>
+    <option value="cim">Competing in the market</option>
+    <option value="rep">Redifining an existing product</option>
+</select><br>
+
+<label for="old">How old is your Business?(in months)</label><br>
+<input type="number" min="0" max="99"><br>
+
+<label for="expenses">Your busiiness maximum expense(in USD)</label><br>
+<input type="number" id="expenses"><br>
+
+<label for="revenue">Your busiiness maximum revenue(in USD)</label><br>
+<input type="number" id="revenue"><br>
+
+<label for="message">Want to say anything</label><br>
+<input type="text" id="message"><br>
+
+<button>Submit</button>
+
+</form>
+</body>
+</html>

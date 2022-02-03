@@ -1,0 +1,70 @@
+body{
+    background-color: #292929;
+    color: #ccc;
+    text-align: center;
+  }
+  
+    h1 {
+      color: #594baa;
+    }
+  
+    h3 {
+      color: #594baa;
+    }
+  
+  form 
+  
+  label{ 
+    font-size: 16px;
+  }
+  
+    input[type=text], input[type=password], input[type=date] {
+      width: 375px;
+      padding: 12px 10px;
+      margin: 10px 0;
+      box-sizing: border-box;
+      background-color: #292929;
+      opacity: 0.9;
+      color: #ccc;
+      border-radius: 5px;
+      border-color: #ccc;
+    }
+    
+    button {
+      background-color: #33da6b;
+      color: white;
+      padding: 14px 0px 14px 0px;
+      border: 1px;
+      cursor: pointer;
+      width: 155px;
+      text-align: center;
+      border-radius: 5px;
+      border-color: blanchedalmond;
+      font-size: 15px;
+      margin: 2px;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+  
+    a {
+      
+      border:2px 0px 0px 2px;
+      color: #ccc;
+     margin: 5px;
+     padding-top: 2px;
+     font-size: 12px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      input[type=text], input[type=password], input[type=date] {
+        width: 95%;
+      }
+      button{
+        width: 35%;
+        font-size: 15px;
+      }
+      
+    }
+    

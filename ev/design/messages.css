@@ -1,0 +1,161 @@
+body{
+    background-color: #292929;
+    color: #ccc;
+    text-align: center;
+  
+  }
+
+  .people{
+
+    position: absolute;
+width: 24%;
+height: 89%;
+left: 10%;
+top: 10%;
+overflow: scroll;
+  }
+
+  .directm{
+
+    position: absolute;
+width: calc(100% - 47% - 10px);
+height: 89%;
+left: calc(10% + 24% + 10px);
+top: 10%;
+
+background: #292929;
+border-radius: 25px;
+box-shadow: 0 3px 10px #141414;
+overflow: scroll;
+  }
+
+  .person{
+    position: relative;
+    width: 95%;
+    height: 100px;
+    background: #292929;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px #141414;
+    left: 5px;
+  }
+
+  .picture{
+
+position: relative;
+    top: 20px;
+width: 60px;
+height: 60px;
+left: 25px;
+border-radius: 50%;
+
+background: #141414;
+  }
+
+.name{
+  position: relative;
+  top: -30px;
+  left: -20px;
+  display: inline;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 42px;
+    
+  color: #ccc;
+  }
+
+  .title{
+    height: 80px;
+    position: fixed;
+    background-color: inherit;
+    width: calc(50% - 10px);
+  }
+
+.sendercommute{
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 75px;
+}
+
+.profilepic{
+  position: relative;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  left: 25px;
+  border-radius: 50%;
+
+  background: #141414;
+}
+
+ 
+
+.username{
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  top: -27px;
+  text-align: left;
+  left: 95px;
+
+  color: #ccc;
+}
+
+.recievercommute{
+  position: relative;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.sender,.reciever{
+  font-size: 25px;
+  font-weight: bold;
+  color: #594BAA;
+}
+
+.sentmessage,.recievedmessage{
+  max-width: 60%;
+}
+
+.recievedmessage{
+  position: relative;
+  text-align: right;
+  left: 40%;
+}
+
+textarea{
+  width: 85%;
+  padding: 12px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  background-color: #292929;
+  opacity: 0.9;
+  color: #ccc;
+  border-radius: 5px;
+  border-color: #ccc;
+  resize: none;
+  
+}
+
+button{
+  position: relative;
+  background-color: #33da6b;
+  color: white;
+  padding: 8px 0px 8px 0px;
+  border: 1px;
+  cursor: pointer;
+  width: 10%;
+  text-align: center;
+  border-radius: 5px;
+  border-color: blanchedalmond;
+  font-size: 15px;
+  margin: 2px;
+  top: -27px;
+}
+
+

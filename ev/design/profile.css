@@ -1,0 +1,58 @@
+
+img{
+    align-items: center;
+    height: 260px;
+    width: 260px;
+    border-radius: 25px;
+
+}
+
+
+
+.photo{
+
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+
+
+body{
+    
+    background-color: #292929;
+    color: #ccc;
+    text-align: center;
+  
+  }
+
+  .rect1{
+    position: relative;
+        top: 100px;
+    width: 265px;
+    background: #292929;
+    border-radius: 25px;
+    border: 2px;
+    height: 265px;
+    box-shadow: 0 3px 10px #141414;
+    margin: 0 auto;
+    color: #fff;
+    cursor: pointer;
+        }
+
+    .posts{
+        padding-bottom: 3rem;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(16rem, 1fr));
+        gap: 20px;
+    }
+
+    @media (max-width: 5000px){
+
+
+        .posts{
+            grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+        }
+
+    }

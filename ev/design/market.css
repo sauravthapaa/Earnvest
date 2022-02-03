@@ -1,0 +1,40 @@
+body{
+    background-color: #292929;
+    color: #ccc;
+  }
+
+.product{
+  position: relative;
+  width: 200px;
+  height: fit-content;
+
+  background: #292929;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px #141414;
+}
+
+.picture{
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+}
+
+.pimage{
+  width: 190px;
+  height: 190px;
+  border-radius: 25px;
+margin: auto;
+display: block;
+}
+
+.pname{
+text-align: center;
+}
+
+.specs{
+  width: 200px;
+}
+
+.price{
+text-align: center;
+}
